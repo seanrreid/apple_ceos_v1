@@ -1,4 +1,6 @@
-### Apple CEOs v1
+# Node + Express + Express Templates Exercise
+
+## Apple CEOs v1
 
 * Build an Express app that shows a list of Apple CEOs
   * `npm init -y`
@@ -6,12 +8,11 @@
   * Create `script` entries for `npm start` and `npm run dev`
 * It will follow the MVC Design Pattern
 
-#### Model
+### Model
 
-* Download the `db.js` file from this repository.
-  * Add this file to the root directory of the application
+* Use the `db.js` file from this repository.
 
-#### Views
+### Views
 
 * Create the following templates
   * `template.html`
@@ -28,7 +29,7 @@
   * Load this data based on the `slug` entry in the `db.js` file
   * Render this page via the `ceo-details` partial
 
-#### Controllers
+### Controllers
 
 * We will use the following routes
   * Root Route, `/`
